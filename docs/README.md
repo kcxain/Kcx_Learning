@@ -1,17 +1,7 @@
-<div align="center">
-    <a href="https://deconx.cn"> <img src="https://badgen.net/badge/CAnotes/在线阅读?icon="></a>
-    <a href="https://github.com/kcxain/CAnotes"> <img src="https://badgen.net/github/stars/kcxain/CAnotes?icon=github"></a>
-    <a href="https://github.com/kcxain/CAnotes"> <img src="https://badgen.net/github/forks/kcxain/CAnotes?icon=github"></a>
-</div>
-<br>
-
-<br>
-
-<div align="center">
-    <img src="./static/img/favicon.png" width="350px">
-</div>
-
-<br>
+---
+slug: /
+---
+# 首页
 
 CAnotes 的意思是 Notes in CS/AI，本项目涵盖计算机科学与人工智能领域各个方向的笔记，内容大多来自国内外名校课程及计算机领域经典书籍，如 CMU-15213，MIT-6.S081，《计算机网络：自顶向下方法》，《深入理解计算机系统》 等。
 
@@ -22,7 +12,7 @@ CAnotes 的意思是 Notes in CS/AI，本项目涵盖计算机科学与人工智
 - 🤤**计算机基础**
 
   - [深入理解计算机系统（CSAPP）](system/CSAPP/)
-  - [MIT-6.S081: Operating System Engineering](system/Operating-System/MIT-6.S081/)
+  - [MIT-6.S081: Operating System Engineering](system/MIT6S081/)
   - [计算机网络：自顶向下方法](system/Computer-Network/)
   - [MIT-6.031: Software Construction](system/Software-Construction/)
   
@@ -37,8 +27,8 @@ CAnotes 的意思是 Notes in CS/AI，本项目涵盖计算机科学与人工智
   
 - 😼**实践项目**
 
-  - [Linux0.11 源码剖析](system/Operating-System/HIT-OSLab/)
-  - [搭建深度学习框架](ai/Deep-Learning-Systems/)
+  - [Linux0.11 源码剖析](project/Operating-System/HIT-OSLab/)
+  - [搭建深度学习框架](project/Deep-Learning-Systems/)
 
 ## 关于作者
 
@@ -48,5 +38,3 @@ CAnotes 的意思是 Notes in CS/AI，本项目涵盖计算机科学与人工智
 
 本项目所有文章均为作者原创（引用的课程及书籍均已注明出处），采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。转载文章请在开头明显处标明该页面地址！
 如有其它事宜，请联系 kcxain@gmail.com。
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
