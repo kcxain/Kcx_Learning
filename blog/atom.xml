@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deconx.cn/blog</id>
-    <title>Star Blog</title>
+    <title>潜龙勿用 Blog</title>
     <updated>2023-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deconx.cn/blog"/>
-    <subtitle>Star Blog</subtitle>
+    <subtitle>潜龙勿用 Blog</subtitle>
     <icon>https://deconx.cn/img/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[DSTC竞赛复盘]]></title>
+        <title type="html"><![CDATA[DSTC11 竞赛复盘]]></title>
         <id>https://deconx.cn/blog/2023/04/10/weekly-summary/</id>
         <link href="https://deconx.cn/blog/2023/04/10/weekly-summary/"/>
         <updated>2023-04-10T00:00:00.000Z</updated>
@@ -19,6 +19,6 @@
             <email>kcxain@gmail.com</email>
             <uri>https://github.com/kcxain</uri>
         </author>
-        <category label="周总结" term="周总结"/>
+        <category label="复盘" term="复盘"/>
     </entry>
 </feed>
