@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>潜龙勿用</ShortName>
-  <Description>Search 潜龙勿用</Description>
+  <ShortName>Kcxain&#39;s Blog</ShortName>
+  <Description>Search Kcxain&#39;s Blog</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://deconx.cn/img/favicon.svg</Image>
   <Url type="text/html" method="get" template="https://deconx.cn/search?q={searchTerms}"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deconx.cn/blog</id>
-    <title>潜龙勿用 Blog</title>
+    <title>Kcxain's Blog Blog</title>
     <updated>2023-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deconx.cn/blog"/>
-    <subtitle>潜龙勿用 Blog</subtitle>
+    <subtitle>Kcxain's Blog Blog</subtitle>
     <icon>https://deconx.cn/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[DSTC11-Track5 竞赛总结]]></title>
