@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deconx.cn/blog</id>
     <title>Kcxain's Blog Blog</title>
-    <updated>2023-05-18T00:00:00.000Z</updated>
+    <updated>2023-05-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deconx.cn/blog"/>
     <subtitle>Kcxain's Blog Blog</subtitle>
     <icon>https://deconx.cn/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[我用 2 万条聊天记录，创造了我的数字生命]]></title>
+        <id>https://deconx.cn/blog/2023/05/24/chatglm</id>
+        <link href="https://deconx.cn/blog/2023/05/24/chatglm"/>
+        <updated>2023-05-24T00:00:00.000Z</updated>
+        <author>
+            <name>Kcxain</name>
+            <email>kcxain@gmail.com</email>
+            <uri>https://github.com/kcxain</uri>
+        </author>
+        <category label="NLP" term="NLP"/>
+        <category label="项目" term="项目"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【代码解读】Bert句子表征能力的改进：Condenser]]></title>
         <id>https://deconx.cn/blog/2023/05/18/condenser</id>
