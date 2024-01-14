@@ -1,0 +1,175 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* navbar */
+.navbar {
+  box-shadow: none;
+
+  .navbar__title {
+    font-weight: bold;
+    font-family: var(--ifm-font-family-name);
+  }
+}
+
+.navbar__link,
+.dropdown,
+.navbar__title,
+.menu {
+  font-weight: 450;
+}
+
+.bloghome__scroll-down {
+  justify-self: center;
+  align-self: end;
+  grid-column: span 2;
+  position: absolute;
+  bottom: 8em;
+  background: linear-gradient(25deg, #1081ff, #72e1f6, #b185ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  button {
+    border: none;
+    width: 150px;
+    height: 48px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+    svg {
+      stroke: #7f7f7f;
+    }
+  }
+}
+
+.bloghome__posts-list,
+.bloghome__posts-grid {
+  animation: fading 0.8s;
+}
+
+/* 导航收缩相应尺寸调大 */
+@media (max-width: 1100px) {
+  .navbar > .container,
+  .navbar > .container-fluid {
+    padding: 0;
+  }
+
+  .navbar__toggle {
+    display: inherit;
+  }
+
+  .navbar__item {
+    display: none;
+  }
+
+  .navbar__search-input {
+    width: 9rem;
+  }
+
+  .navbar-sidebar {
+    display: block;
+  }
+}
+
+.markdown {
+  > h1 {
+    font-size: 2.2em;
+  }
+
+  > h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid var(--ifm-color-primary);
+    margin-top: 1rem;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.4em;
+      display: inline-block;
+      background: var(--ifm-color-primary);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h3 {
+    font-size: 1.5em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.3em;
+      display: inline-block;
+      background: var(--ifm-color-primary);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > h4 {
+    font-size: 1.2em;
+
+    &::before {
+      margin-right: 0.3em;
+      width: 0.2em;
+      display: inline-block;
+      background: var(--ifm-color-primary);
+      color: transparent;
+      content: '.';
+    }
+  }
+
+  > a {
+    transition: all 0.1s;
+    display: inline-block;
+
+    &:focus,
+    &:hover {
+      color: #db2828;
+    }
+  }
+
+  .markdown-body a:hover::before {
+    width: 100%;
+  }
+
+  img {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  table {
+    display: table;
+    margin: 0 auto;
+  }
+}
