@@ -4,8 +4,8 @@
   <ShortName>Kcxain&#39;s Blog</ShortName>
   <Description>Search Kcxain&#39;s Blog</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://deconx.cn/img/favicon.svg</Image>
-  <Url type="text/html" method="get" template="https://deconx.cn/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://deconx.cn/opensearch.xml" />
-  <moz:SearchForm>https://deconx.cn/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://kkee.top/img/favicon.svg</Image>
+  <Url type="text/html" method="get" template="https://kkee.top/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://kkee.top/opensearch.xml" />
+  <moz:SearchForm>https://kkee.top/</moz:SearchForm>
 </OpenSearchDescription>
